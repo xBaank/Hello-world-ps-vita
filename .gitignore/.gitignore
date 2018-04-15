@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "debugScreen.h"
+
+
+#define printf psvDebugScreenPrintf
+
+int main() {
+	psvDebugScreenInit();
+	while (1) {
+	
+	printf("Hello, world!\r");
+}
+}
